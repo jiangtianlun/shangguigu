@@ -6,12 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gamll-api" />
+        <module name="gamll-user-service" />
+        <module name="gamllapi" />
+        <module name="gmall-common-util" />
+        <module name="gmall-service-util" />
+        <module name="gmall-user" />
+        <module name="gmall-user-web" />
+        <module name="gmall-web-util" />
         <module name="gmalluser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gamll-api" target="1.7" />
+      <module name="gamll-common-util" target="1.5" />
+      <module name="gamll-user-service" target="1.8" />
+      <module name="gamllapi" target="1.7" />
+      <module name="gamllparent" target="1.5" />
       <module name="gamlluser" target="1.8" />
-      <module name="gmalluser" target="1.8" />
+      <module name="gmall-common-util" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-service-util" target="1.8" />
+      <module name="gmall-user" target="1.8" />
+      <module name="gmall-user-web" target="1.8" />
+      <module name="gmall-web-util" target="1.8" />
+      <module name="gmallapi" target="1.5" />
+      <module name="gmallparent" target="1.7" />
+      <module name="gmalluser" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
