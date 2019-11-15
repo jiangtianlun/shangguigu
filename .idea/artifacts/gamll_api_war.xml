@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gamll-api:war">
+    <output-path>$PROJECT_DIR$/gamll-api/target</output-path>
+    <root id="archive" name="gamll-api.war">
+      <element id="artifact" artifact-name="gamll-api:war exploded" />
+    </root>
+  </artifact>
+</component>
