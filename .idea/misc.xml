@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/gmall-service-util/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-user-web/pom.xml" />
         <option value="$PROJECT_DIR$/gamll-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manager-service/pom.xml" />
       </list>
     </option>
   </component>

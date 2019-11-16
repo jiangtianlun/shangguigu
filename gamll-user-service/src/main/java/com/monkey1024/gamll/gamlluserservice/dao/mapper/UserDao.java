@@ -8,5 +8,5 @@ import tk.mybatis.mapper.common.Mapper;
 
 @Repository
 public interface UserDao extends Mapper<UmsMember>{
-    //ArrayList<UmsMember> selectAllUsers();
+
 }

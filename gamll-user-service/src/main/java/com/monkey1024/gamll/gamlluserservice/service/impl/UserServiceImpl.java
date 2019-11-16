@@ -5,12 +5,14 @@ import bean.UmsMember;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.monkey1024.gamll.gamlluserservice.dao.mapper.UserDao;
+import org.springframework.stereotype.Component;
 import service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
+@Component
 @Service
 public class UserServiceImpl implements UserService{
 
