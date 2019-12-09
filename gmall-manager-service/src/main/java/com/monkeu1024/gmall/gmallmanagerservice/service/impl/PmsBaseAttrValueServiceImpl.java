@@ -15,6 +15,9 @@ public class PmsBaseAttrValueServiceImpl implements PmsBaseAttrValueService{
 
     @Override
     public List<PmsBaseAttrValue> getById(String attrId) {
-        return null;
+        PmsBaseAttrValue pmsBaseAttrValue=new PmsBaseAttrValue();
+        pmsBaseAttrValue.setAttrId(attrId);
+        pmsBaseAttrValueDao.select(pmsBaseAttrValue);
+        return pmsBaseAttrValueDao.select(pmsBaseAttrValue);
     }
 }
